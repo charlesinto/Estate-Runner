@@ -10,7 +10,7 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section className="mb-20 container px-8">
+      <section className="mb-20 container px-8 lg:hidden">
         <div className="h-60 relative w-full">
           <Image
             src={"/images/bg1.png"}
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mb-20 container px-8">
+      <section className="mb-20 container lg:grid grid-cols-2 gap-4 px-8 lg:px-0 mx-auto">
         <AdvertPill
           iconUrl={"/images/bg5.png"}
           title={<>Control who can access your estate</>}

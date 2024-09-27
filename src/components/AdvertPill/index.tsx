@@ -14,12 +14,13 @@ const AdvertPill: FC<React.PropsWithChildren<IProps>> = ({
   description,
 }) => {
   return (
-    <div className="shadow-md rounded-md px-3 py-8 mb-5">
+    <div className="shadow-md rounded-md px-3 py-8 lg:py-14 mb-5">
       <div className="relative flex justify-center mb-5">
         <Image
           src={iconUrl as string}
           width={80}
           height={80}
+          className="h-80 w-80 lg:w-[8rem] lg:h-[8rem]"
           alt="Access estate"
         />
       </div>

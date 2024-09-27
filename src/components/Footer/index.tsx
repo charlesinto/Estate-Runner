@@ -8,7 +8,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
-      <div className="relative top-8 flex h-40  ">
+      <div className="relative lg:hidden top-8 flex h-40  ">
         <Image
           layout="fill"
           src="/images/bg6.png"
